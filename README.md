@@ -1,13 +1,13 @@
 # pushfeedback-react
 
-Integrate PushFeedback feedback widget into your React project.
+Feedback widget for React.
 
 ## Prerequisites
 
-Before proceeding, ensure you have the following:
+Before proceeding, ensure you have:
 
-- A PushFeedback account ([Sign up for free](https://docs.pushfeedback.com/)).
-- A project set up in your PushFeedback dashboard. Follow the Quickstart guide if you haven't done this yet.
+- A [PushFeedback account](https://app.pushfeedback.com/accounts/signup/).
+- A [project](https://docs.pushfeedback.com/#2-create-a-project) set up in your PushFeedback dashboard. 
 - A React application with Node.js installed.
 
 ## Installation
@@ -28,8 +28,6 @@ Before proceeding, ensure you have the following:
     ```
 
     > **INFO**: If you're using yarn, use `yarn add pushfeedback-react` instead.
-
-## Embedding the Feedback Button
 
 1. In the main component where you want the feedback button to appear (commonly `src/App.js`), import and embed the PushFeedback button:
 
@@ -60,19 +58,7 @@ Before proceeding, ensure you have the following:
 
     Replace `<YOUR_PROJECT_ID>` with your project's ID from the PushFeedback dashboard.
 
-2. Start your React application:
-
-    ```bash
-    npm start
-    ```
-
-    Or if you're using yarn:
-
-    ```bash
-    yarn start
-    ```
-
-    After compiling successfully, the feedback button should be visible and functional on your site.
+5. After compiling your application, the feedback button should be visible and functional on your site.
 
 ## Configuration
 
@@ -80,4 +66,10 @@ For further customization and to explore additional features, refer to the [Conf
 
 ## Support
 
-Need assistance? Contact [PushFeedback Support](https://docs.pushfeedback.com/support) for help.
+Need assistance? [Contact us](https://docs.pushfeedback.com/support) for help.
+
+## License
+
+Copyright (c) 2023 PushFeedback.com
+
+Licensed under the [MIT License](LICENSE.md).
